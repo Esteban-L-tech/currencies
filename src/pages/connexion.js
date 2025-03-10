@@ -6,19 +6,12 @@ import React from "react";
 let VerticalBanner = './asset/image/bande_img.jpg'
 
 
-
-
-
-
 function Form() {
   return (
     <>
 
-
       <h1>Se connecter</h1>
       <h2>Vous tenter d’accéder à un contenu qui nécessite d’être connecté</h2>
-
-
 
       <div className="contenair">
         <div className="row">
