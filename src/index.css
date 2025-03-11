@@ -7,10 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  z-index: -1;
+  position: relative;
+  background-image: linear-gradient(to top, #35aaf825, #00c3ff2a, #000000f5, #000000), url("./assets/images/binairies.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root, main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 
 #banniere {
   background: linear-gradient(to bottom, #ffffff00, #000000f5, #000000), url(./assets/images/banniere.png);
@@ -31,23 +51,153 @@ code {
   z-index: 10;
 }
 
-body {
-  z-index: -1;
-  position: relative;
-  background-image: linear-gradient(to top, #35aaf825, #00c3ff2a, #000000f5, #000000), url("./assets/images/binairies.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
+#basic-nav-dropdown,
+#basic-nav-dropdown-item {
+  color: azure;
+}
+
+#basic-nav-dropdown:hover,
+#basic-nav-dropdown-item:hover {
+  color: #055d94;
+}
+
+.text-color {
+  color: azure !important;
+}
+
+.text-color:hover {
+  color: #055d94 !important;
+}
+
+.text-color-2 {
+  color: azure !important;
+}
+
+#basic-nav-dropdown-item:hover {
+  background-color: azure;
+}
+
+#bg-body-tertiary {
+  background-color: #055d94;
+}
+
+.custom-dropdown-left {
+
+  display: flex;
+  justify-content: left;
+}
+
+.custom-dropdown .dropdown-menu {
+  background-color: #055d94;
+}
+
+.custom-color {
+  background-color: #055d94 !important;
+  color: azure !important;
+  padding: 10px 20px;
+  border: 1px solid azure !important;
+  border-radius: 5px;
+}
+
+.custom-color:hover {
+  background-color: #0d227096 !important;
+  color: azure !important;
+  padding: 10px 20px;
+  border: 1px solid azure !important;
+  border-radius: 5px;
+}
+
+.custom-toggle {
+  background-color: #055d94 !important;
+  color: azure !important;
+  padding: 10px 20px;
+  border: 1px solid azure !important;
+  border-radius: 5px;
+}
+
+.custom-toggle:hover {
+  background-color: #0d227096 !important;
+  color: azure !important;
+  padding: 10px 20px;
+  border: 1px solid azure !important;
+  border-radius: 5px;
+}
+
+.custom-toggle .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#user-dropdown {
+  background-color: #055d94;
+  border: 1px solid azure;
+  padding: 5px;
+  margin: 10px;
+  max-height: 70px;
+  border-radius: 20px;
+}
+
+.userContainer {
+  display: flex;
+  align-items: center;
+}
+
+.userCard {
+  color: azure;
+  margin-left: auto;
+  font-weight: 600;
+  font-size: medium;
+}
+
+#user-dropdown .dropdown-menu {
+  background-color: #055d94 !important;
+}
+
+.text-align-center {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.text-align-left {
+  text-align: left;
+  margin-left: 25px;
+}
+
+.logo {
+  width: 150px !important;
+  height: auto;
+  padding: 20px;
+}
+
+.copyright {
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.carouselItem {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 
-.test-2 {
-  font-size: xx-large;
+.connection {
+  text-align: center;
+  font-size: large;
+}
+
+.register {
+  text-align: center;
+  font-size: x-large;
   color: white;
 }
+
 
 
 h1 {
@@ -56,13 +206,7 @@ h1 {
 
 h2 {
   color: red;
-  text-decoration: underline overline #FF3028;
+  border-style: dashed none;
   text-align: center;
 }
 
-
-
-.test-4 {
-  position: relative;
-  background-color: grey;
-}

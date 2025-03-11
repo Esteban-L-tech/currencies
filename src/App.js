@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Banner from './compos/mynavbar';
 import Footer from './compos/myfooter';
-import connexion from './pages/connexion';
+import Connexion from './pages/connexion';
 
 
 
@@ -13,7 +13,7 @@ function App() {
       <main className="container-fluid px-0">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<connexion />} />
+          <Route path="/" element={<Connexion />} />
         </Routes>
       </BrowserRouter>
       </main>

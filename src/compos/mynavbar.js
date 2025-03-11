@@ -15,7 +15,7 @@ function Banner() {
         <Navbar.Brand href="#home"><img src={Logo} alt="Logo du site" width={160} height={160} className='d-inline-block align-top' /></Navbar.Brand>
         <Navbar.Toggle className="custom-toggle" aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav className="pt-0 me-auto my-2 my-lg-0" style={{ maxHeight: '160px' }} navbarScroll>
+          <Nav className="pt-0 me-auto my-2 my-lg-0 " style={{ maxHeight: '160px' }} navbarScroll>
             <NavDropdown title="Accueil" id="basic-nav-dropdown" className='custom-dropdown'>
               <NavDropdown.Item href="#action/3.1" id="basic-nav-dropdown-item">Qui sommes-nous ?</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2" id="basic-nav-dropdown-item">A propos de la formation</NavDropdown.Item>
