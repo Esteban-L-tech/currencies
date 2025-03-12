@@ -6,7 +6,7 @@ function News1() {
     return (
     <>
     img.src
-    <h1 className="text-color-2">Nous contacter</h1>
+    <h1 className="text-color-2">HTML5 : Nouveaux éléments de section, article, header, footer, aside, nav</h1>
     </>
     )  
 }
