@@ -187,14 +187,7 @@ code {
 }
 
 
-.connection {
-  text-align: center;
-  font-size: large;
-}
-
-.register {
-  text-align: center;
-  font-size: x-large;
+.inscrit {
   color: white;
 }
 
@@ -210,9 +203,41 @@ h2 {
   text-align: center;
 }
 
+h3{
+  text-align: center;
+}
+
+
+
 .test{
   text-align: center;
   font-size: x-large;
   color: white;
 }
+
+.text-i {
+  font-size: x-large;
+}
+
+.form-text {
+  color: white;
+}
+
+.text-c {
+  font-size: medium;
+  background-color: #232323;
+  background: linear-gradient(0deg, #000000, #2e2e2e);
+  color: white;
+}
+
+.text-d {
+  text-align: center;
+}
+
+
+
+.btn{
+  color: rgb(255, 255, 255);
+}
+
 

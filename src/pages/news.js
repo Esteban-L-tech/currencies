@@ -1,32 +1,33 @@
 import InputGroup from 'react-bootstrap/InputGroup';
-import NewCarousel from '../compos/carousel1';
+import NewCarousel from '../compos/carouselNews';
 import { Row } from 'react-bootstrap';
 import React from "react";
+import NewCarouselNews from '../compos/carouselNews';
 let VerticalBanner = './asset/image/bande_img.jpg'
 
 function News() {
-  const carouselItems1 = [
-    { text: 'Image 1', image: '/assets/images/img1.jpg' },
-    { title: 'Image 2', image: '/assets/images/img1.jpg' },
-    { title: 'Image 3', image: '/assets/images/img1.jpg' },
-    { title: 'Image 4', image: '/assets/images/img1.jpg' },
-    { title: 'Image 5', image: '/assets/images/img1.jpg' },
+  const carouselNews1 = [
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
   ];
 
-  const carouselItems2 = [
-    { title: 'Image 1', image: '/assets/images/img1.jpg' },
-    { title: 'Image 2', image: '/assets/images/img1.jpg' },
-    { title: 'Image 3', image: '/assets/images/img1.jpg' },
-    { title: 'Image 4', image: '/assets/images/img1.jpg' },
-    { title: 'Image 5', image: '/assets/images/img1.jpg' },
+  const carouselNews2 = [
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
   ];
 
   const carouselItems3 = [
-    { title: 'Image 1', image: '/assets/images/img1.jpg' },
-    { title: 'Image 2', image: '/assets/images/img1.jpg' },
-    { title: 'Image 3', image: '/assets/images/img1.jpg' },
-    { title: 'Image 4', image: '/assets/images/img1.jpg' },
-    { title: 'Image 5', image: '/assets/images/img1.jpg' },
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
+    { title: 'Titre de l’article', image: '/assets/images/img1.jpg', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum orci quis diam malesuada, quis pharetra risus elementum. Ut mollis  posuere fermentum. Sed ut sem eu orci blandit rutrum nec vitae lectus.  Suspendisse suscipit et neque in porttitor. ' },
   ];
   return (
     <>
@@ -36,7 +37,7 @@ function News() {
         <p>Dernière news</p>
       </div>
 
-      <NewCarousel items={carouselItems1} />
+      <NewCarouselNews items={carouselNews1} />
       <div className="container mx-auto text-center">
         <div className="row">
           <section id="aboutUs">
@@ -48,7 +49,7 @@ function News() {
         <p>Développement informatique</p>
       </div>
 
-      <NewCarousel items={carouselItems2} />
+      <NewCarouselNews items={carouselNews2} />
       <div className="container mx-auto text-center">
         <div className="row">
           <section id="aboutUs">
@@ -60,7 +61,7 @@ function News() {
         <p>Technologies</p>
       </div>
 
-      <NewCarousel items={carouselItems3} />
+      <NewCarouselNews items={carouselItems3} />
       <div className="container mx-auto text-center">
         <div className="row">
           <section id="aboutUs">
